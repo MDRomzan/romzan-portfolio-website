@@ -1,0 +1,16 @@
+.input-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.input-size{
+   width:20rem;
+   margin: 10px;
+   height:2.5rem; 
+   border-radius: 10px;
+}
+.inp{
+    width:20rem ;
+    height:5rem;
+}

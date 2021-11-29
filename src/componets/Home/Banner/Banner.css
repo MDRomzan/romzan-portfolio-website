@@ -1,0 +1,75 @@
+.design{
+    width: 100%;
+    height:auto;
+    background-color: black;
+}
+.text-design{
+    text-align: left;
+}
+.font-design{
+    font-size:4rem;
+    font-weight: 500;
+    
+}
+.resume-download{
+    text-decoration: none;
+    padding:15px;
+    margin:10px;
+    background-color: #ff4800;
+    color:white;
+    border-radius: 50px;
+    
+}
+.resume-download:hover{
+    background-color: rgb(12, 243, 224);
+    color:white;
+}
+.btn-design{
+    padding:15px ;
+    margin:10px;
+    background-color: #ff4800;
+    color:white;
+    border-radius: 50px;
+    border:none;
+}
+.btn-design:hover{
+    background-color: deepskyblue;
+    
+}
+@media only screen and (max-width: 600px) {
+    .font-design {
+        
+        font-size:2rem;
+    }
+
+    /* .text {
+        font-size: 20px;
+    } */
+
+     .resume-download{
+        margin: 8px;
+        border: none;
+        padding: 8px;
+        border-radius: 50px;
+        background-color: rgb(235, 99, 9);
+        color: white;
+
+    } 
+.resume-download:hover {
+    margin: 8px;
+    border: none;
+    padding: 8px;
+    border-radius: 50px;
+    background-color: rgb(9, 220, 235);
+    color: white;
+
+}
+    /* .btn-contact {
+        margin: 5px;
+        border: none;
+        padding: 5px;
+        border-radius: 10px;
+        background-color: #02143b;
+        color: white;
+    } */
+}

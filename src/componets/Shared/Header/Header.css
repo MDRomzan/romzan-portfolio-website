@@ -1,0 +1,7 @@
+.nav-design:hover{
+    background-color: rgb(28, 184, 236);
+    color:white;
+    border-radius: 50px;
+    font-size:20px;
+    border:none;
+}
