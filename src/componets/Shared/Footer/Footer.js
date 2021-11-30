@@ -1,4 +1,7 @@
 import React from 'react';
+import fa from"../../../image/icon/facebook.png"
+import github from "../../../image/icon/github.png"
+import linked from "../../../image/icon/LinkedIn_icon.svg.png"
 
 import "./Footer.css";
 const Footer = () => {
@@ -11,14 +14,20 @@ const Footer = () => {
               <div className="left-container text-start">
                 <h1>Romzan Portfolio</h1>
                 <div className="icons-container d-flex text-center ">
-                  <div className="icon">
-                    
+                  <div className="">
+                    <a href="https://web.facebook.com/md.romjan.54738943">
+                    <img className="icon" src={fa} alt="" />
+                    </a>
                   </div>
-                  <div className="icon">
-
+                  <div className="">
+                    <a href="https://github.com/MDRomzan">
+                    <img className="icon"  src={github} alt="" />
+                    </a>
                   </div>
-                  <div className="icon">
-
+                  <div className=""  >
+                    <a href="https://www.linkedin.com/in/rd-romzan-dawan/">
+                    <img className="icon" src={linked} alt="" />
+                    </a>
                   </div>
                  
                 </div>

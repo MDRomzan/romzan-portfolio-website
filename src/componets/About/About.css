@@ -1,0 +1,152 @@
+h3{
+    margin: 5px;
+}
+.skill{
+   width: 500px;
+   margin:20px auto ;
+   color:rgb(15, 0, 0);
+   padding: 10px;
+   box-shadow:0 14px 12px rgba(0,0,0,0.25) ;
+}
+.skill li{
+    margin :5px 0;
+    padding:5px;
+}
+.bar{
+  background-color: #353b48; 
+  display:block;
+  height: 15px; 
+  border:1px solid rgba(0, 0, 0, 0.3);
+  border-radius:10px ;
+  overflow: hidden;
+  box-shadow:0 10px 14px rgba(0,0,0,0.12),0 10px 10px rgba(0, 0, 0, 0.22); ;
+  transition: all 0.3s cubic-bezier(0.25, .8, 0.24, 1) ;
+}
+@media only screen and (max-width: 600px) {
+    .skill {
+        width: 200px;
+        margin: 30px auto;
+        color: rgb(15, 0, 0);
+        padding: 10px;
+        box-shadow: 0 14px 12px rgba(0, 0, 0, 0.25);
+    }
+    .bar{
+        height: 10px;
+    }
+}
+.bar:hover{
+    box-shadow:0 14px 28px rgba(0, 0, 0, 0.25),
+    0 10px 10px rgba(0, 0, 0, 0.22);
+
+}
+.bar span{
+    height: 20px;
+    float:left;
+    background:linear-gradient(135deg,rgba(236,0,140,1),rgba(252,103,103,1)100%) ;
+}
+.html{
+    width:90%;
+    animation: html 3s;
+}
+.css {
+    width: 80%;
+    animation: css 3s;
+}
+.bootstrap {
+    width: 73%;
+    animation: bootstrap 3s;
+}
+.tailwind {
+    width: 60%;
+    animation: tailwind 3s;
+}
+.metarial {
+    width: 55%;
+    animation: metarial 3s;
+}
+.react {
+    width: 75%;
+    animation: react 3s;
+}
+.node {
+    width: 25%;
+    animation: node 3s;
+}
+.javascript {
+    width: 60%;
+    animation: javascript 3s;
+}
+
+
+
+@keyframes html{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:90%;
+    }
+}
+@keyframes css {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 80%;
+    }
+}
+@keyframes bootstrap {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 73%;
+    }
+}
+@keyframes tailwind {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 60%;
+    }
+}
+@keyframes metarial {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 55%;
+    }
+}
+@keyframes react {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 75%;
+    }
+}
+@keyframes node {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 25%;
+    }
+}
+@keyframes javascript {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 60%;
+    }
+}
